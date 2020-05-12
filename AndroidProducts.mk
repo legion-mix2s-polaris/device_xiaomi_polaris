@@ -14,4 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_polaris.mk
+    $(LOCAL_DIR)/legion_polaris.mk
+
+COMMON_LUNCH_CHOICES := \
+    legion_polaris-user \
+    legion_polaris-userdebug \
+    legion_polaris-eng
